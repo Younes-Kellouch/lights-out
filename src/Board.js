@@ -89,7 +89,7 @@ class Board extends Component {
         finalBoard.push(<tr key={i}>{row}</tr>);
       }
     return(
-      <div>
+      <div className="container">
         <div className="Board-Title">
             <div className="neon-orange">Lights</div>
             <div className="neon-blue">Out</div>

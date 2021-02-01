@@ -14,7 +14,24 @@
   background-color: #00bcd4;
 }
 
-.small {
-  width: 75px;
-  height: 70px;
+@media( max-width : 1000px) {
+  .Cell{
+    height:90px;
+    width: 90px;
+  }
+}
+
+@media( max-width : 600px) {
+  .Cell{
+    height:70px;
+    width: 70px;
+  }
+}
+
+
+@media (max-width:400px) and (max-height:900px){
+  .Cell{
+    height:55px;
+    width: 55px;
+  }
 }
