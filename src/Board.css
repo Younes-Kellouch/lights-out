@@ -84,6 +84,9 @@
   .neon-blue , .neon-orange{
    font-size: 90px;
   }
+  .winner .neon-blue, .winner .neon-orange {
+    font-size: 90px;
+  }
 }
 
 
@@ -91,12 +94,19 @@
   .neon-blue , .neon-orange{
    font-size: 70px;
   }
+
+  .winner .neon-blue, .winner .neon-orange {
+    font-size: 70px;
+  }
 }
 
 
 @media (max-width:400px) and (max-height:900px){
   .neon-blue , .neon-orange{
    font-size: 50px;
+  }
+  .winner .neon-blue, .winner .neon-orange {
+    font-size: 50px;
   }
   
 }
