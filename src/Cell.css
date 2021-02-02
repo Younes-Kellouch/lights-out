@@ -1,6 +1,6 @@
 .Cell {
-  height: 100px;
-  width: 100px;
+  height: 80px;
+  width: 80px;
   background-color: #263238;
   border-radius: 1px;
   transition: background-color 0.5s ease;
@@ -14,13 +14,8 @@
   background-color: #00bcd4;
 }
 
-@media( max-width : 1000px) {
-  .Cell{
-    height:90px;
-    width: 90px;
-  }
-}
 
+/*
 @media( max-width : 600px) {
   .Cell{
     height:70px;
@@ -35,3 +30,50 @@
     width: 55px;
   }
 }
+*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .Cell{
+    height:70px;
+    width: 70px;
+  }
+}
+
+
+@media only screen and (max-width: 400px) {
+  .Cell{
+    height:45px;
+    width: 45px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .Cell{
+    height:85px;
+    width: 85px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .Cell{
+    height:80px;
+    width:80px;
+  }
+}
+
+@media only screen and (min-width: 1200px)  {
+  .Cell{
+    height:90px;
+    width: 90px;
+  }
+}
+
+@media only screen and (max-height: 600px)  {
+  .Cell{
+    height:70px;
+    width: 70px;
+  }
+}
+

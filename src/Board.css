@@ -1,5 +1,5 @@
 .Board {
-  margin:  auto;
+  width: auto;
   box-shadow: 4px 5px 39px 18px rgb(4, 118, 133,0.8);
 }
 
@@ -11,13 +11,15 @@
 .container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 .Board-Title{
   display: flex;
   justify-content: center;
-  width: 100%;
-  margin-bottom: 80px;
+  margin-bottom: 50px;
 }
 
 .neon-orange {
@@ -79,7 +81,7 @@
     color: #146C80;
   }
 }
-
+/*
 @media (max-width:700px) {
   .neon-blue , .neon-orange{
    font-size: 90px;
@@ -101,7 +103,7 @@
 }
 
 
-@media (max-width:400px) and (max-height:900px){
+@media (max-width:450px) and (max-height:900px){
   .neon-blue , .neon-orange{
    font-size: 50px;
   }
@@ -111,4 +113,58 @@
   
 }
 
+*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .neon-blue , .neon-orange{
+    font-size: 65px;
+   }
+   .winner .neon-blue, .winner .neon-orange {
+     font-size: 65px;
+   }
+}
+
+@media only screen and (max-width: 400px) {
+  .neon-blue , .neon-orange{
+    font-size: 45px;
+   }
+   .winner .neon-blue, .winner .neon-orange {
+     font-size: 45px;
+   }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .neon-blue , .neon-orange{
+    font-size: 90px;
+   }
+ 
+   .winner .neon-blue, .winner .neon-orange {
+     font-size: 90px;
+   }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .neon-blue , .neon-orange{
+    font-size: 100px;
+   }
+ 
+   .winner .neon-blue, .winner .neon-orange {
+     font-size: 100px;
+   }
+}
+
+
+
+@media only screen and (min-width: 1200px) and (max-height:900px) {
+  .neon-blue , .neon-orange{
+    font-size: 100px;
+   }
+ 
+   .winner .neon-blue, .winner .neon-orange {
+     font-size: 100px;
+   }
+}
 
