@@ -15,22 +15,6 @@
 }
 
 
-/*
-@media( max-width : 600px) {
-  .Cell{
-    height:70px;
-    width: 70px;
-  }
-}
-
-
-@media (max-width:400px) and (max-height:900px){
-  .Cell{
-    height:55px;
-    width: 55px;
-  }
-}
-*/
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .Cell{
@@ -70,7 +54,7 @@
   }
 }
 
-@media only screen and (max-height: 600px)  {
+@media only screen and (max-height: 700px)  {
   .Cell{
     height:70px;
     width: 70px;
